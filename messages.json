@@ -1,0 +1,10 @@
+[
+  {
+    "name": "NIKK iPhone",
+    "code": "Brrrr"
+  },
+  {
+    "name": "NIK macbook",
+    "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    double num1, num2;\n    char op;\n\n    cout << \"Enter first number: \";\n    cin >> num1;\n\n    cout << \"Enter operator (+, -, *, /): \";\n    cin >> op;\n\n    cout << \"Enter second number: \";\n    cin >> num2;\n\n    switch (op) {\n        case '+':\n            cout << \"Result: \" << num1 + num2;\n            break;\n        case '-':\n            cout << \"Result: \" << num1 - num2;\n            break;\n        case '*':\n            cout << \"Result: \" << num1 * num2;\n            break;\n        case '/':\n            if (num2 != 0)\n                cout << \"Result: \" << num1 / num2;\n            else\n                cout << \"Error: Division by zero!\";\n            break;\n        default:\n            cout << \"Error: Invalid operator!\";\n            break;\n    }\n\n    return 0;\n}\n"
+  }
+]
